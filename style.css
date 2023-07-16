@@ -154,24 +154,7 @@ main {
 }
 
 
-/* our-sponser  */
 
-.our-spons{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.sponser-logo{
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
- 
-}
-
-.logo img{
-    width: 100%;
- 
-}
 
 
 
@@ -203,6 +186,7 @@ main {
 .love-img img{
     width: 400px;
     height: 680px;
+    margin-left: 60px;
 }
 
 .ten-years{
@@ -213,10 +197,34 @@ main {
     text-align: center;
     color: aliceblue;
     width: 150px;
+    position: relative;
+    bottom: 50px;
+   
 }
 
 .ten-years h2{
      font-size: 2rem;
+}
+
+
+
+/* our-sponser  */
+
+.our-spons{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sponser-logo{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+ 
+}
+
+.logo img{
+    width: 100%;
+ 
 }
 
 
@@ -282,9 +290,12 @@ footer{
         margin-top: 20px;
        
     }
+    .our-spons{
+        margin-top: 200px;
+    }
     .sponser-logo{
         margin-top: 50px;
-       padding-left: 100px;
+       padding-left: 75px;
     
     }
     .logo img{
@@ -295,6 +306,20 @@ footer{
     .love-img img{
         width: 100%;
         height: 100%;
+        margin-left: 0;
+       
+      
+       
+       
+    }
+
+
+    .ten-years{
+    position: static;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding: 10px 20px ;
+       
        
     }
 
@@ -344,10 +369,13 @@ footer{
     .icon{
         margin-top: 20px;
     }
+    .our-spons{
+        margin-top: 200px;
+    }
 
     .sponser-logo{
         margin-top: 50px;
-       padding-left: 240px;
+       padding-left: 200px;
     
     }
     .logo img{
@@ -359,8 +387,17 @@ footer{
     .love-img img{
         width: 100%;
         height: 100%;
-       
+        margin-left: 0;
     }
+
+    .ten-years{
+        position: static;
+        margin-top: 20px;
+        padding: 10px 20px;
+        margin-left: 200px;
+       
+           
+     }
 
     footer .description-footer{
         margin-top: 150px;
