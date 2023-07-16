@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family:sans-serif ;
+}
+
+.description{
+    margin-top: 20px;
+}
+ /* header start  */
+header{
+    background-color: aqua;
+    padding: 50px 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+}
+nav > ul {
+  display: flex;
+     
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+/* banner  */
+.banner{
+    margin-top: 50px;
+}
+.banner-text{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.btn-primary{
+    padding:15px 30px;
+    background-color: darkorange;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.banner-img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+/* end  */
+
+/* main  */
+main {
+    max-width: 1440px;
+    margin: 70px auto;
+    width: 70%;
+}
+.fueture-section{
+    display: flex;
+    align-items: center;
+    /* padding: 0 200px; */
+}
+
+.team-4img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.fueture-text{
+    padding-left: 30px;
+   
+  
+}
+.team-4img img{
+ width: 100%;
+
+}
+
+.feuture-title{
+    font-weight: 700;
+   
+}
+.feuture-title .feuture-quicklist{
+    font-size: 2rem;
+    color: darkgray;
+}
+
+.feuture-title .feuture-ofour {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.description{
+   color: darkgrey;
+}
+.feuture-title .feuture-feutur{
+    font-size: 2rem;
+    color:orange ;
+}
+
+/* fact section  */
+
+.fact-section{
+    margin-top: 50px;
+}
+
+
+
+
+/* responsive  */
+/* mobile phone responsive */
+
+@media screen and (max-width:576px) {
+
+    header{
+        padding: 20px;
+   
+       }
+   
+       nav {
+           flex-direction: column;
+       
+       }
+       nav li{
+           margin: 20px 10px;
+           
+       }
+
+
+    .fueture-section{
+        flex-direction: column;
+
+        padding: 0 10px;
+    }
+ 
+    .fueture-text{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .description{
+        padding: px;
+    }
+    .team-4img{
+        grid-template-columns: repeat(1,1fr);
+    }
+ 
+}
+
+
+  /* medium device  */
+
+  @media screen and (min-width:576px) and (max-width:992px) {
+
+
+
+    header{
+        padding: 30px;
+   
+       }
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        margin: 20px 10px;
+        
+    }
+
+    .fueture-section{
+        flex-direction: column;
+
+        padding: 0 10px;
+    }
+ 
+    .fueture-text{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .description{
+        padding: 10px;
+    }
+
+  }
