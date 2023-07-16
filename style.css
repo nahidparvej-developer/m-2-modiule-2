@@ -125,6 +125,85 @@ main {
 .fact-section{
     margin-top: 50px;
 }
+.fact-title{
+    font-size: 2.8rem;
+    
+}
+
+.fact-icon{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 50px;
+}
+
+.icon{
+    border: 1px solid orangered;
+    padding:30px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+   
+}
+.icon img{
+    margin-bottom: 20px;
+}
+
+
+/* our-sponser  */
+
+.our-spons{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sponser-logo{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+ 
+}
+
+.logo img{
+    width: 100%;
+ 
+}
+
+footer{
+    text-align: center;
+}
+.description-footer{
+    color: darkgrey;
+}
+
+
+/* love & enjoy  */
+
+.love-enjoy{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+ 
+   
+}
+
+.love-head .love-title{
+    border-radius: 8px;
+    background-color:rgba(218, 218, 218, 0.877);
+    box-shadow: 0px 4px 30px 0px rgba (0,0,0,0,06);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.love-title{
+    margin-top: 20px;
+}
+.love-img img{
+    width: 400px;
+    height: 680px;
+}
+
+
+
 
 
 
@@ -139,7 +218,11 @@ main {
    
        }
    
-       nav {
+       nav,
+       
+       .fact-icon,
+       .sponser-logo,
+       .love-enjoy {
            flex-direction: column;
        
        }
@@ -148,6 +231,10 @@ main {
            
        }
 
+       .description{
+        padding: 10px;
+    }
+
 
     .fueture-section{
         flex-direction: column;
@@ -155,16 +242,34 @@ main {
         padding: 0 10px;
     }
  
-    .fueture-text{
+    .fueture-text
+    {
         text-align: center;
         margin-top: 20px;
     }
 
-    .description{
-        padding: px;
-    }
+
     .team-4img{
         grid-template-columns: repeat(1,1fr);
+    }
+    .icon{
+        margin-top: 20px;
+       
+    }
+    .sponser-logo{
+        margin-top: 50px;
+       padding-left: 55px;
+    
+    }
+    .logo img{
+       width: 60%;
+       margin-top: 30px;
+
+    }
+    .love-img img{
+        width: 100%;
+        height: 100%;
+       
     }
  
 }
@@ -180,7 +285,9 @@ main {
         padding: 30px;
    
        }
-    nav{
+    nav,
+    .fact-icon,
+    .sponser-logo{
         flex-direction: column;
     }
     nav li{
@@ -200,6 +307,27 @@ main {
     }
     .description{
         padding: 10px;
+    }
+
+    .icon{
+        margin-top: 20px;
+    }
+
+    .sponser-logo{
+        margin-top: 50px;
+       padding-left: 250px;
+    
+    }
+    .logo img{
+       width: 30%;
+       margin-top: 30px;
+
+    }
+
+    .love-img img{
+        width: 100%;
+        height: 100%;
+       
     }
 
   }
