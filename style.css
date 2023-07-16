@@ -73,18 +73,23 @@ nav li a:hover{
 
 
 
-/* end  */
+/* header end  */
 
-/* main  */
+/* main section start  */
+
+
 main {
     max-width: 1440px;
     margin: 70px auto;
     width: 70%;
 }
+
+/* <!-- fueture section  --> */
+
 .fueture-section{
     display: flex;
     align-items: center;
-    /* padding: 0 200px; */
+   
 }
 
 .team-4img{
@@ -123,8 +128,10 @@ main {
     font-size: 2rem;
     color:orange ;
 }
+/* <!-- end   fueture section  --> */
 
-/* fact section  */
+
+/* fact section start */
 
 .fact-section{
     margin-top: 50px;
@@ -155,10 +162,10 @@ main {
 
 
 
+/* end fact-section */
 
 
-
-/* love & enjoy  */
+/* <!-- love-enjoy start  --> */
 
 .love-enjoy{
     display: flex;
@@ -206,9 +213,9 @@ main {
      font-size: 2rem;
 }
 
+/* <!-- love-enjoy start  --> */
 
-
-/* our-sponser  */
+/* our-sponser start  */
 
 .our-spons{
     text-align: center;
@@ -227,23 +234,29 @@ main {
  
 }
 
+/*  end our-sponser   */
 
 
 
-
-  /* footer  */
+/* <!-- start footer  --> */
 
 footer{
     text-align: center;
     background-color: black;
+  
 }
 .description-footer{
     color: white;
+ 
 }
 
+/* <!-- end footer  --> */
 
-/* responsive  */
-/* mobile phone responsive */
+
+
+/* start media query responsive section */
+
+/*  start mobile device responsive */
 
 @media screen and (max-width:576px) {
 
@@ -329,8 +342,10 @@ footer{
  
 }
 
+/*  end mobile device responsive */
 
-  /* medium device  */
+
+  /* medium device or i pad dvice responsive section */
 
   @media screen and (min-width:576px) and (max-width:992px) {
 
@@ -405,3 +420,7 @@ footer{
  
 
   }
+
+   /* medium device or i pad dvice responsive section */
+
+   /* end media query responsive section */
